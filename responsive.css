@@ -1,0 +1,121 @@
+/* =============================================
+   CAMPUS FIND — Global Mobile Responsive CSS
+   Include via: <link rel="stylesheet" href="responsive.css">
+   ============================================= */
+
+@media (max-width: 768px) {
+
+    /* Navbars */
+    .navbar { padding: 10px 15px !important; flex-wrap: wrap; gap: 8px; }
+    .navbar h1 { font-size: 18px !important; }
+    .nav-left, .nav-right { gap: 8px !important; }
+    .back-btn { padding: 6px 12px !important; font-size: 12px !important; }
+    .admin-badge { font-size: 10px !important; padding: 2px 7px !important; }
+
+    /* Containers */
+    .container { padding: 12px !important; }
+
+    /* Stats cards — stack to 2 per row */
+    .stats-container { gap: 8px !important; }
+    .stat-card { min-width: calc(50% - 8px) !important; padding: 12px !important; }
+    .stat-icon { font-size: 26px !important; }
+    .stat-number { font-size: 22px !important; }
+    .stat-label { font-size: 12px !important; }
+
+    /* Stats row (my reports / profile) */
+    .stats-row { gap: 8px !important; }
+    .stat-box { padding: 14px !important; }
+    .stat-box .num { font-size: 22px !important; }
+
+    /* Quick action cards — full width on small, 2-col on medium */
+    .cards-container { gap: 10px !important; }
+    .card { width: 100% !important; padding: 18px !important; }
+    .card .icon { font-size: 36px !important; margin-bottom: 10px !important; }
+    .card h3 { font-size: 16px !important; }
+
+    /* Charts grid */
+    .charts-grid { flex-direction: column !important; }
+    .chart-card { min-width: 100% !important; }
+
+    /* Tables — horizontal scroll */
+    .table-wrap, .recent-items, .table-card { overflow-x: auto !important; }
+    .table-wrap table, .recent-items table, .data-table { min-width: 560px; }
+
+    /* Welcome box */
+    .welcome-box { padding: 20px !important; }
+    .welcome-box h1 { font-size: 20px !important; }
+    .welcome-box p  { font-size: 13px !important; }
+
+    /* Filter tabs — wrap */
+    .filter-tabs { gap: 6px !important; flex-wrap: wrap !important; }
+    .tab-btn { padding: 7px 12px !important; font-size: 12px !important; }
+
+    /* Filters row */
+    .filters-row { flex-direction: column !important; }
+    .filters-row input, .filters-row select, .filters-row .btn { width: 100% !important; }
+
+    /* Search bar */
+    .search-bar { flex-direction: column !important; }
+    .search-bar input, .search-bar button, .search-bar a { width: 100% !important; }
+
+    /* Pagination */
+    .pagination { flex-wrap: wrap; gap: 5px !important; }
+    .pagination a, .pagination span { padding: 6px 10px !important; font-size: 12px !important; }
+
+    /* Profile page */
+    .profile-card { padding: 20px !important; }
+
+    /* Chat layout */
+    .chat-container { flex-direction: column !important; }
+    .chat-sidebar { width: 100% !important; max-height: 40vh; border-right: none !important; border-bottom: 1px solid #ddd; }
+    .chat-area { min-height: 60vh; }
+
+    /* Dropdown menu */
+    .dropdown-menu { width: 160px !important; }
+    .notif-dropdown { width: 260px !important; right: -5px !important; }
+
+    /* Modal */
+    .modal-content { width: 95% !important; padding: 20px !important; max-width: 95vw !important; }
+
+    /* Claim cards */
+    .claims-container { flex-direction: column !important; }
+    .claim-card { max-width: 100% !important; }
+    .countdown-timer { gap: 8px !important; }
+    .countdown-number { font-size: 20px !important; }
+    .meeting-countdown-timer { gap: 8px !important; }
+    .meeting-countdown-number { font-size: 18px !important; }
+    .receipt-btn { font-size: 12px !important; padding: 7px 14px !important; }
+
+    /* Report form */
+    .form-container { padding: 20px !important; }
+
+    /* Admin manage tables */
+    .item-img, .item-img-ph { width: 40px !important; height: 40px !important; }
+    .item-img-placeholder { width: 40px !important; height: 40px !important; }
+    .user-avatar { width: 36px !important; height: 36px !important; font-size: 14px !important; }
+
+    /* Button groups */
+    .btn-approve, .btn-reject { padding: 6px 10px !important; font-size: 11px !important; margin-bottom: 4px !important; }
+    .action-btn { padding: 4px 8px !important; font-size: 11px !important; }
+
+    /* Page headers */
+    .page-header { flex-direction: column !important; gap: 10px !important; align-items: flex-start !important; }
+    .page-title { font-size: 20px !important; }
+
+    /* Dark mode toggle visibility */
+    .dark-mode-toggle { padding: 3px 8px !important; font-size: 15px !important; }
+
+    /* Nav avatar */
+    .nav-avatar { width: 36px !important; height: 36px !important; font-size: 16px !important; }
+}
+
+@media (max-width: 480px) {
+    .navbar h1 { font-size: 15px !important; }
+    .stat-card { min-width: 100% !important; }
+    .stats-container { flex-direction: column !important; }
+    .section-title { font-size: 17px !important; }
+    .card { padding: 14px !important; }
+    td, th { padding: 8px 10px !important; font-size: 12px !important; }
+    .detail-label { width: 100px !important; font-size: 12px !important; }
+    .detail-value { font-size: 12px !important; }
+}
