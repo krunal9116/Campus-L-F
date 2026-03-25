@@ -1,8 +1,3 @@
-# Campus-L-F
-Campus Lost &amp; Found Management System. (CLFMS)
-
-
-
 # 🔍 Campus-Find (CLFMS)
 
 **Campus Lost & Found Management System** — A full-stack web application that helps college students and staff report, search, and claim lost & found items on campus.
