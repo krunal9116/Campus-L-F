@@ -1,5 +1,5 @@
 # 🔍 Campus-Find (CLFMS)
-
+/
 **Campus Lost & Found Management System** — A full-stack web application that helps college students and staff report, search, and claim lost & found items on campus.
 
 > ⚠️ **This project will NOT work via GitHub Pages.** It requires a PHP server with MySQL database.
